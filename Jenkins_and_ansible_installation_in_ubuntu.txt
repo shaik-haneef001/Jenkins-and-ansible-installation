@@ -1,0 +1,39 @@
+Instalallation of jenkins on Ubuntu 20.04
+
+# sudo apt update --------------------------------(update system)
+# sudo apt install openjdk-11-jdk --------------- (java jdk11 installing)
+# java --version  --------------------------------(checking java version)
+
+   (Jenkins can easily be installed on Ubuntu by importing and adding the GPG keys to the system.)
+# wget -p -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -   
+
+   (add the Jenkins package address to the sources list):
+# sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'      
+
+# sudo apt update
+
+# sudo apt install jenkins
+
+# sudo systemctl status jenkins 
+
+# sudo systemctl start jenkins
+
+
+
+
+Instalallation of Ansible on Ubuntu 20.04
+
+# sudo apt update --------------------------------(update system)
+
+# sudo apt install ansible  -----------------(installing ansible)
+
+# ansible --version  ------------------(to check the version)
+
+
+
+
+
+
+
+
+
